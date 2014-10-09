@@ -9,4 +9,5 @@ console.log(userInput);
 
 var width = 15;
 var length = 12;
+var height = 8;
 
