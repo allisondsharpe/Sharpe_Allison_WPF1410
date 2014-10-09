@@ -4,9 +4,5 @@ Allison Sharpe
 Expressions_Personal
  */
 
-var userName = prompt("What is your first and last name?");
-console.log(userName);
-
-var yearBorn = prompt("What year were you born?");
-console.log(yearBorn);
-
+var userInput = prompt("What is 15sq.ft. x 12sq.ft.");
+console.log(userInput);
