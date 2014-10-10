@@ -13,7 +13,8 @@ var width = 15; //This is the width of my dining room
 var length = 12; //This is the length of my dining room
 var height = 8; //This is the height of my dining room
 
-
+var area = prompt("What is 180 sq.ft. x 8sq.ft.");//This will prompt the user to enter the complete area for dining room
+console.log(area);
 
 
 
