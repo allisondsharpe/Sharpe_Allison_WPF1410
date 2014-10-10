@@ -17,3 +17,11 @@ pixelsSquared [1];
 pixelsSquared [2];
 console.log(pixelsSquared);
 
+var userInput = prompt("What is 10.0 pixels squared x 13.3 pixels squared?");
+console.log(userInput);
+
+var divide = prompt("What is 133 pixels squared divided by 96?");
+console.log(divide);
+
+alert("There are 1.39 square pixels in total" );
+console.log(alert);
