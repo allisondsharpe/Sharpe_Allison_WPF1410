@@ -25,3 +25,5 @@ if(area >= 200){
     console.log("Redo calculation!");
 }
 area = true;
+
+alert("The area is equal to 238 sq.ft.");
