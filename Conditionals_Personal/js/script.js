@@ -18,5 +18,10 @@ console.log(calculatedArea);
 if(calculatedArea === "");
 calculatedArea = prompt("Please enter the area for 14sq.ft. and 17sq.ft.");
 
+if(area >= 200){
+    console.log("Complete calculation!");
 
-
+}else{
+    console.log("Redo calculation!");
+}
+area = true;
