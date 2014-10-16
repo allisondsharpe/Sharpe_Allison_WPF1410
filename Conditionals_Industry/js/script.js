@@ -12,11 +12,18 @@ var area = width * height;//Multiplying width and height in order to find the ar
 console.log(area);//This will tell the console to generate the area for the width and height
 
 var findingArea = prompt("If the width of a mobile device is 640 in. and the height is 960 in., what is the area?");
-console.log(findingArea);
+console.log(findingArea);//Prompting the user to calculate the area for the width times the  height
+
+if(area === "");{
+    area = prompt ("Please calculate the area if the width is 640 in. and the height is 960 in.");
+}
+
 
 var area = 614400;
-var decision;
+var decision;//This is the ternary operation that will allow the console to calculate which decision I should make next
 
 decision = (area <= 615000) ? "Complete coding for mobile device." : "Re-calculate measurements.";
 console.log(decision);
 
+alert("The total area for the screen resolution is 614400 inches.");
+console.log(alert);
