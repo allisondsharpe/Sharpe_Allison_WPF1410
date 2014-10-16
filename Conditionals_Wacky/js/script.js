@@ -24,3 +24,5 @@ if(totalAmount < 10){
    console.log("Play a game consisting of marbles.");
 }//This is the "if and else" operator that will enable the console to directing the user as to what they should do next
 
+alert("There are 15 marbles in total.");
+console.log(alert);//This will alert the user that there are 15 marbles in total
