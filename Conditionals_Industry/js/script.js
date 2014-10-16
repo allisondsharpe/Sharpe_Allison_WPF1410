@@ -11,3 +11,6 @@ var height = 960;//Calculating the height of the user's mobile device's screen r
 var area = width * height;//Multiplying width and height in order to find the area
 console.log(area);//This will tell the console to generate the area for the width and height
 
+var findingArea = prompt("If the width of a mobile device is 640 in. and the height is 960 in., what is the area?");
+console.log(findingArea);
+
