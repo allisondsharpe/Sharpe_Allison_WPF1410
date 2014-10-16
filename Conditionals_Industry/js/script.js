@@ -16,8 +16,7 @@ console.log(findingArea);//Prompting the user to calculate the area for the widt
 
 if(area === "");{
     area = prompt ("Please calculate the area if the width is 640 in. and the height is 960 in.");
-}
-
+}//This is validating the prompt for the user to calculate the total area for width x height
 
 var area = 614400;
 var decision;//This is the ternary operation that will allow the console to calculate which decision I should make next
@@ -26,4 +25,4 @@ decision = (area <= 615000) ? "Complete coding for mobile device." : "Re-calcula
 console.log(decision);
 
 alert("The total area for the screen resolution is 614400 inches.");
-console.log(alert);
+console.log(alert);//This is an alert letting the user know what the total area is for the width x height
