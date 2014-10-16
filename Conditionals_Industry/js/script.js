@@ -14,3 +14,9 @@ console.log(area);//This will tell the console to generate the area for the widt
 var findingArea = prompt("If the width of a mobile device is 640 in. and the height is 960 in., what is the area?");
 console.log(findingArea);
 
+var area = 614400;
+var decision;
+
+decision = (area <= 615000) ? "Complete coding for mobile device." : "Re-calculate measurements.";
+console.log(decision);
+
