@@ -30,7 +30,13 @@ function findingCircumference(radius, radius2, pie){//This is the function for f
 
 //Example Three
 
+beeStings(8.666666667, 15);
 
+function beeStings(bee, catWeight) {
+    var amountBeeStings = bee * catWeight;
+    console.log(" It takes " + amountBeeStings + " bee stings to kill this animal");
+
+}
 
 
 
