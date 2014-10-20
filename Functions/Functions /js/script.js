@@ -1,10 +1,13 @@
-//Functions - Returning Values
+//Functions - Funtion vs Procedure
 
-var total = calcArea(30, 20);
-
-function calcArea(w, h){
-    var area = w * h;
+//This is a function
+function calcAreaF(width, height){
+    var area = width * height;
     return area;
-
 }
-console.log(total);
+
+//This is a procedure
+function calcAreaP(width, height){
+    var area = width * height;
+    console.log(area);//no return
+}
