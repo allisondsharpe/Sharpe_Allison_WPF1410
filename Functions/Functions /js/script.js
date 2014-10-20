@@ -1,18 +1,14 @@
-//Functions - Function Executive
+//Functions - Variable Scope
 
-function OutptMsg(){
-    console.log("Hello world!");
-}
+var width = 5;
 
 function calcArea(){
 
     var width = 20;
     var height = 30;
     var area = width * height;
-    console.log(area);
+    //console.log(area);
 }
 
 calcArea();
-calcArea();
-calcArea();
-
+console.log(width); 
