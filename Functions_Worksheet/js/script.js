@@ -35,8 +35,10 @@ beeStings(8.666666667, 15);
 function beeStings(bee, catWeight) {
     var amountBeeStings = bee * catWeight;
     console.log(" It takes " + amountBeeStings + " bee stings to kill this animal");
-
+    return amountBeeStings;
 }
+console.log(beeStings);
+
 
 
 
