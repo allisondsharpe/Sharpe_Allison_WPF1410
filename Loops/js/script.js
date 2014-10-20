@@ -1,11 +1,6 @@
 //Loops
 
-var c = 10; //sets up index
+for (var i = 10; i > 0; i--){
+    console.log(i + ' kegs on the wall ');
 
-do{
-    console.log(c + ' kegs on the wall ');
-    c--;
 }
-
-while(c > 0);
-
