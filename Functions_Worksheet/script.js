@@ -4,3 +4,9 @@ Allison Sharpe
 Functions_Worksheet
  */
 
+var width = 5;
+var height = 6;
+var area = calculateArea(width, height);
+console.log("The Area of a Rectangle is" + area);
+
+
