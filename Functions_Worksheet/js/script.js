@@ -19,5 +19,9 @@ function findingCircumference(radius, radius2, pie){
     var circumference = radius * radius2 * pie;
     console.log(" The circumference of the circle is " + circumference);
 }
+console.log(findingCircumference);
+
+
+
 
 
