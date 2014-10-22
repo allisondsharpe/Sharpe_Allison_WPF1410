@@ -4,3 +4,5 @@ Allison Sharpe
 Functions_Personal
  */
 
+alert("We are finding the area of my kitchen!");
+
