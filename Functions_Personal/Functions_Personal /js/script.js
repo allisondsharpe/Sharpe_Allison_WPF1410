@@ -22,3 +22,8 @@ var totalArea = function(width, height){
 var a = totalArea(180, 170);
 console.log(a);
 
+var kitchenArea = 30600;
+var decision;
+
+decision = (kitchenArea <= 40000) ? "Measure the area for the living room" : "Go back and re-measure";
+console.log(decision);
