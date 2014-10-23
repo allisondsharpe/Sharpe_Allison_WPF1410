@@ -14,6 +14,14 @@ var total = resolution(1440, 900);
         return area;
 
     }
-console.log (total);
+console.log(total);
 
+var area = 1296000;
 
+if(area >= 1200000){
+    console.log("Complete measurements");
+
+}else{
+    console.log("Undo measurements ")
+
+}
