@@ -39,3 +39,4 @@ function totalFruit(alice, sharon, chris, caleb){//These are all four parameters
 
 }
 console.log(" The total amount of fruit is " + amount);//Enables the console to print out the total amount of fruit
+
