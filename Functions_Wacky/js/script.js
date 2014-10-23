@@ -4,3 +4,8 @@ Allison Sharpe
 Functions_Wacky
  */
 
+alert("We are calculating the total amount of fruit!");
+console.log(alert);
+
+
+
