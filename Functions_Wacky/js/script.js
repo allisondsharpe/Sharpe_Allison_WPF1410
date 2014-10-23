@@ -17,6 +17,18 @@ var fruit = [2,3,6,9];
 var total = fruit[0] + fruit[1] + fruit[2] + fruit[3];
 console.log(total);
 
+var alice = 2;
+var sharon = 3;
+var chris = 6;
+var caleb = 9;
+var totalAmount = 2 + 3 + 6 + 9;
+
+if(totalAmount > 15 || totalAmount < 30){
+    console.log("Make fruit smoothies!");
+}else{
+    console.log("Gather more fruits!");
+}
+
 var amount = totalFruit(2,3,6,9);
 
 function totalFruit(alice, sharon, chris, caleb){
@@ -25,9 +37,3 @@ function totalFruit(alice, sharon, chris, caleb){
 
 }
 console.log(" The total amount of fruit is " + amount);
-
-
-
-
-
-
