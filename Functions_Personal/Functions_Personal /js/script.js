@@ -29,3 +29,4 @@ var decision;
 
 decision = (kitchenArea <= 40000) ? "Measure the area for the living room" : "Go back and re-measure";
 console.log(decision);//Enables the console to print out a set of instructions for the next step
+
