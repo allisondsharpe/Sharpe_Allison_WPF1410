@@ -7,6 +7,12 @@ Functions_Wacky
 alert("We are calculating the total amount of fruit!");
 console.log(alert);
 
+var findingAmount = prompt("Alice has 2 bananas, Sharon has 3 apples, Chris has 6 oranges, and Caleb has 9 berries. How much fruit do they have in total?");
+while(findingAmount===""){
+    findingAmount = prompt("Alice has 2 bananas, Sharon has 3 apples, Chris has 6 oranges, and Caleb has 9 berries. How much fruit do they have in total? Please don't leave blank.");
+    console.log(findingAmount);
+}
+
 var fruit = [2,3,6,9];
 var total = fruit[0] + fruit[1] + fruit[2] + fruit[3];
 console.log(total);
